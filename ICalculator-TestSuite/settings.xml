@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="13a122fa-2b4a-4202-94ab-de74cb95f627" name="ICalculator TestSuite" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="13a122fa-2b4a-4202-94ab-de74cb95f627fileName">ICalculator-TestSuite</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

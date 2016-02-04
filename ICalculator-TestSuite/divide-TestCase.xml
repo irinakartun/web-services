@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="550710b7-2422-4a59-a961-e36a04c29083" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="divide TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="550710b7-2422-4a59-a961-e36a04c29083fileName">divide-TestCase</con:setting></con:settings><con:testStep type="request" id="53b1f9a3-178f-4bd1-941c-737985c52f9d" name="divide"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ICalculator</con:interface><con:operation>divide</con:operation><con:request name="divide" id="f14b799e-b402-451e-a871-57fd185341dc" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:divide>
+         <cal:numerator>6</cal:numerator>
+         <cal:denominator>2</cal:denominator>
+      </cal:divide>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig action="divide" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

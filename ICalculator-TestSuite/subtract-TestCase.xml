@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="44c43c70-25b8-4470-bfb9-1ee9d17cc522" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="subtract TestCase" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="44c43c70-25b8-4470-bfb9-1ee9d17cc522fileName">subtract-TestCase</con:setting></con:settings><con:testStep type="request" id="70c5a543-c285-4304-861b-fd1af9a220b1" name="subtract"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ICalculator</con:interface><con:operation>subtract</con:operation><con:request name="subtract" id="3a92de6c-5c28-4c41-96d8-f322c4c7141b" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cal:subtract>\r
+         <cal:x>?</cal:x>\r
+         <cal:y>?</cal:y>\r
+      </cal:subtract>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="subtract"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

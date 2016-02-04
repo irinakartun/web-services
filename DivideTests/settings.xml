@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="9dc50646-4c88-48a5-b4da-6b050dfbac84" name="DivideTests" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="9dc50646-4c88-48a5-b4da-6b050dfbac84fileName">DivideTests</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
